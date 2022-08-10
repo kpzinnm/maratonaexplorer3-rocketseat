@@ -1,0 +1,83 @@
+/* Global */
+* {
+  margin: 0;
+  padding: 0f;
+}
+
+body {
+  background-color: #FFEDD5;
+  font-size: smaller;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Fontes */
+h1, h2, h3, .price {
+  font-family: 'Roboto', serif;
+  text-transform: uppercase;
+}
+
+/* Header */
+header {
+  padding: 32px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: xx-large;
+  margin-bottom: 4px;
+}
+
+header h1 spam {
+  color: #995000;
+}
+
+header p {
+  font-size: x-small;
+}
+
+/* Section */
+section {
+  max-width: 420px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+section h2 {
+  background-color: #FED7AA;
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 28px;
+
+  margin-bottom: 24px;
+}
+
+/* Lista */
+ul {
+  padding-left: 0%;
+}
+
+ul li {
+  margin-bottom: 16px;
+  display: flex;
+}
+
+li .details{
+  max-width: 295px;
+  text-align: justify;
+}
+
+li .price {
+  padding-left: 13px;
+}
+
+.details h3 {
+  margin-bottom: 8px;
+  font-size: 22px;
+}
+
+.details p {
+  color: rgba(0, 0, 0, 0.6)
+}
